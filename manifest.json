@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "JSONL Viewer",
+  "version": "1.0",
+  "description": "Pretty print and colorize JSONL files",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*.jsonl", "file://*/*.jsonl"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+body {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px;
+}
+
+.jsonl-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.jsonl-line {
+  background-color: #252526;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 12px 16px;
+  border-left: 3px solid #007acc;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.jsonl-line:hover {
+  background-color: #2d2d30;
+}
+
+.jsonl-line-number {
+  color: #858585;
+  margin-right: 16px;
+  user-select: none;
+  min-width: 40px;
+  display: inline-block;
+}
+
+/* JSON syntax highlighting */
+.json-key {
+  color: #9cdcfe;
+}
+
+.json-string {
+  color: #ce9178;
+}
+
+.json-number {
+  color: #b5cea8;
+}
+
+.json-boolean {
+  color: #569cd6;
+}
+
+.json-null {
+  color: #569cd6;
+}
+
+.json-punctuation {
+  color: #d4d4d4;
+}
+
+.jsonl-error {
+  background-color: #3a1d1d;
+  border-left-color: #f44747;
+}
+
+.jsonl-error-message {
+  color: #f44747;
+  font-style: italic;
+  margin-top: 8px;
+  font-size: 12px;
+}
